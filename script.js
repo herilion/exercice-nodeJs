@@ -1,5 +1,5 @@
 //utilisation de Timer
+const monErreur = new Error('une erreur est detectée');
 setTimeout(() => {
-    const monBuffer = Buffer.from('Bonjour le monde');
-    console.log('Bonjour');
-}, 5000)
+    throw monErreur
+}, 1000)
