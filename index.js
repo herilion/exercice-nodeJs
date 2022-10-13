@@ -12,4 +12,4 @@ server.on('request', (req, res) => {
         return res.end();
     })
 })
-server.listen(9000);
+server.listen(9000); //on utilisera le port 9000 de notre server
