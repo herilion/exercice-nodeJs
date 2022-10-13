@@ -1,5 +1,5 @@
 const http = require('http');
-const fs = require('fs')
+const fs = require('fs');
 const server = http.createServer();
 server.on('request', (req, res) => {
     let datahtml = ''
@@ -12,4 +12,4 @@ server.on('request', (req, res) => {
         return res.end();
     })
 })
-server.listen(9000); //on utilisera le port 9000 de notre server
+server.listen(9000); //on utilisera le port 9000 de notre serve
