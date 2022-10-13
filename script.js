@@ -1,12 +1,12 @@
-// //utilisation de Timer
-// const monErreur = new Error('une erreur est detectée');
-// setTimeout(() => {
-//     try {
-//         throw monErreur
-//     } catch (error) {
+//utilisation de Timer
+const monErreur = new Error('une erreur est detectée');
+setTimeout(() => {
+    try {
+        throw monErreur
+    } catch (error) {
 
-//     }
-// }, 1000)
+    }
+}, 1000)
 
 const http = require('http');
 const events = require('events');
